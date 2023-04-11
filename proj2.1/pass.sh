@@ -1,0 +1,1 @@
+scp -r ../p2.1_fubzh_ouyangkzh/ root@192.168.59.130:/home/st/Code
