@@ -1,0 +1,11 @@
+268435456	test_input
+0	main
+12	main_loop
+112	main_exit
+120	factorial
+128	f_loop
+176	return
+184	multiply
+200	mul_loop
+220	mul_not_add
+232	mul_return

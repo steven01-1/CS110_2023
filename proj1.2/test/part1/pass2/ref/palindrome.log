@@ -1,0 +1,5 @@
+Error - invalid instruction at line 181: beqz a2
+Error - invalid instruction at line 215: blez a3
+Error - invalid instruction at line 247: bge a0 a1
+Error - invalid instruction at line 250: bge a1 a0
+One or more errors encountered during assembly operation.

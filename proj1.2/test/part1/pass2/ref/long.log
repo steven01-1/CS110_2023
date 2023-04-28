@@ -1,0 +1,151 @@
+Error - invalid instruction at line 15: mulw x1 gp s11
+Error - invalid instruction at line 16: divw x12 a2 t0
+Error - invalid instruction at line 17: remw a4 s8 x4
+Error - invalid instruction at line 21: sltiu x14 x17 2778
+Error - invalid instruction at line 27: addiw x28 a1 -1810
+Error - invalid instruction at line 28: slliw x21 x7 22
+Error - invalid instruction at line 29: srliw x4 x30 22
+Error - invalid instruction at line 30: sraiw s0 t4 4
+Error - invalid instruction at line 31: lb x24 7717 s8
+Error - invalid instruction at line 32: lh x5 -11222 s6
+Error - invalid instruction at line 33: lw t6 13560 x1
+Error - invalid instruction at line 34: lbu tp -19640 x5
+Error - invalid instruction at line 35: lhu s8 -16630 x1
+Error - invalid instruction at line 36: sb s10 -17748 s9
+Error - invalid instruction at line 37: sh s3 21645 x12
+Error - invalid instruction at line 38: sw a5 15369 s3
+Error - invalid instruction at line 41: jal t6 -16234
+Error - invalid instruction at line 43: beq x30 x11 30602
+Error - invalid instruction at line 44: bne sp s4 -10616
+Error - invalid instruction at line 45: blt x0 x10 16954
+Error - invalid instruction at line 46: bge x31 x20 5675
+Error - invalid instruction at line 47: bltu s11 s6 15391
+Error - invalid instruction at line 48: bgeu t6 t3 -18328
+Error - invalid instruction at line 49: add s11 a5
+Error - invalid instruction at line 50: mul t1 s9
+Error - invalid instruction at line 51: sub x14 x11
+Error - invalid instruction at line 52: sll gp x14
+Error - invalid instruction at line 53: mulh x28 a4
+Error - invalid instruction at line 54: slt x0 t5
+Error - invalid instruction at line 55: sltu t4 ra
+Error - invalid instruction at line 56: xor a2 s4
+Error - invalid instruction at line 57: div s3 a4
+Error - invalid instruction at line 58: srl x12 a0
+Error - invalid instruction at line 59: sra x30 t6
+Error - invalid instruction at line 60: or s2 a2
+Error - invalid instruction at line 61: and x2 t4
+Error - invalid instruction at line 62: rem a4 x13
+Error - invalid instruction at line 63: mulw s5 x9
+Error - invalid instruction at line 64: divw t5 x6
+Error - invalid instruction at line 65: remw s3 s2
+Error - invalid instruction at line 66: addi x6 x7
+Error - invalid instruction at line 67: slli x18 x10
+Error - invalid instruction at line 68: slti x12 tp
+Error - invalid instruction at line 69: sltiu a0 tp
+Error - invalid instruction at line 70: xori ra x22
+Error - invalid instruction at line 71: srli x21 t5
+Error - invalid instruction at line 72: srai a0 x27
+Error - invalid instruction at line 73: ori s9 a1
+Error - invalid instruction at line 74: andi x29 x31
+Error - invalid instruction at line 75: addiw x7 x15
+Error - invalid instruction at line 76: slliw t4 t5
+Error - invalid instruction at line 77: srliw x14 s7
+Error - invalid instruction at line 78: sraiw x25 t3
+Error - invalid instruction at line 79: lb s11 10444
+Error - invalid instruction at line 80: lh a4 -3639
+Error - invalid instruction at line 81: lw x13 -12670
+Error - invalid instruction at line 83: lbu a7 14203
+Error - invalid instruction at line 84: lhu a2 -7586
+Error - invalid instruction at line 85: sb x11 26772
+Error - invalid instruction at line 86: sh a0 19529
+Error - invalid instruction at line 87: sw x14 8895
+Error - invalid instruction at line 88: lui x26
+Error - invalid instruction at line 89: auipc a0
+Error - invalid instruction at line 90: jal x15
+Error - invalid instruction at line 91: jalr s4 a4
+Error - invalid instruction at line 92: beq x10 zero
+Error - invalid instruction at line 93: bne a7 x25
+Error - invalid instruction at line 94: blt x29 sp
+Error - invalid instruction at line 95: bge s10 x1
+Error - invalid instruction at line 96: bltu x18 t0
+Error - invalid instruction at line 97: bgeu x23 x27
+Error - invalid instruction at line 98: add x25 x27 x53
+Error - invalid instruction at line 99: mul x25 x2 x36
+Error - invalid instruction at line 100: sub x14 x1 x43
+Error - invalid instruction at line 101: sll x17 x10 x45
+Error - invalid instruction at line 102: mulh x18 x19 x52
+Error - invalid instruction at line 103: slt x19 x23 x47
+Error - invalid instruction at line 104: sltu x19 x12 x56
+Error - invalid instruction at line 105: xor x19 x30 x39
+Error - invalid instruction at line 106: div x5 x31 x52
+Error - invalid instruction at line 107: srl x5 x6 x49
+Error - invalid instruction at line 108: sra x13 x21 x34
+Error - invalid instruction at line 109: or x20 x19 x61
+Error - invalid instruction at line 110: and x19 x15 x55
+Error - invalid instruction at line 111: rem x8 x14 x48
+Error - invalid instruction at line 112: mulw x18 x25 x44
+Error - invalid instruction at line 113: divw x20 x13 x61
+Error - invalid instruction at line 114: remw x29 x17 x38
+Error - invalid instruction at line 115: addi x25 x9 x60
+Error - invalid instruction at line 116: slli x8 x6 x47
+Error - invalid instruction at line 117: slti x10 x23 x63
+Error - invalid instruction at line 118: sltiu x27 x4 x50
+Error - invalid instruction at line 119: xori x10 x13 x62
+Error - invalid instruction at line 120: srli x7 x5 x45
+Error - invalid instruction at line 121: srai x9 x24 x48
+Error - invalid instruction at line 122: ori x24 x30 x47
+Error - invalid instruction at line 123: andi x4 x5 x36
+Error - invalid instruction at line 124: addiw x15 x5 x47
+Error - invalid instruction at line 125: slliw x17 x22 x63
+Error - invalid instruction at line 126: srliw x17 x28 x46
+Error - invalid instruction at line 127: sraiw x31 x17 x40
+Error - invalid instruction at line 128: lb x8 x9 x38
+Error - invalid instruction at line 129: lh x25 x15 x38
+Error - invalid instruction at line 130: lw x14 x9 x59
+Error - invalid instruction at line 131: lbu x5 x27 x32
+Error - invalid instruction at line 132: lhu x25 x20 x33
+Error - invalid instruction at line 133: sb x26 x22 x58
+Error - invalid instruction at line 134: sh x0 x18 x55
+Error - invalid instruction at line 135: sw x3 x28 x42
+Error - invalid instruction at line 136: lui x19 x42
+Error - invalid instruction at line 137: auipc x22 x44
+Error - invalid instruction at line 138: jal x31 x43
+Error - invalid instruction at line 139: jalr x27 x8 x54
+Error - invalid instruction at line 140: beq x17 x16 x56
+Error - invalid instruction at line 141: bne x0 x11 x38
+Error - invalid instruction at line 142: blt x12 x31 x36
+Error - invalid instruction at line 143: bge x22 x22 x60
+Error - invalid instruction at line 144: bltu x3 x21 x58
+Error - invalid instruction at line 145: bgeu x15 x4 x45
+Error - invalid instruction at line 146: addi x12 x7 x45
+Error - invalid instruction at line 147: slli x2 x6 x52
+Error - invalid instruction at line 148: slti x16 x9 x43
+Error - invalid instruction at line 149: sltiu x1 x21 x38
+Error - invalid instruction at line 150: xori x30 x30 x34
+Error - invalid instruction at line 151: srli x7 x14 x49
+Error - invalid instruction at line 152: srai x1 x5 x62
+Error - invalid instruction at line 153: ori x17 x17 x39
+Error - invalid instruction at line 154: andi x2 x0 x43
+Error - invalid instruction at line 155: addiw x5 x0 x41
+Error - invalid instruction at line 156: slliw x30 x20 x41
+Error - invalid instruction at line 157: srliw x31 x18 x44
+Error - invalid instruction at line 158: sraiw x0 x5 x47
+Error - invalid instruction at line 159: lb x10 x17 x47
+Error - invalid instruction at line 160: lh x21 x25 x49
+Error - invalid instruction at line 161: lw x21 x4 x55
+Error - invalid instruction at line 162: lbu x25 x27 x37
+Error - invalid instruction at line 163: lhu x15 x9 x48
+Error - invalid instruction at line 164: sb x12 x1 x56
+Error - invalid instruction at line 165: sh x31 x20 x39
+Error - invalid instruction at line 166: sw x17 x7 x58
+Error - invalid instruction at line 167: lui x13 x48
+Error - invalid instruction at line 168: auipc x4 x56
+Error - invalid instruction at line 169: jal x8 x37
+Error - invalid instruction at line 170: jalr x4 x26 x59
+Error - invalid instruction at line 171: beq x28 x30 x35
+Error - invalid instruction at line 172: bne x12 x8 x38
+Error - invalid instruction at line 173: blt x30 x3 x49
+Error - invalid instruction at line 174: bge x10 x4 x41
+Error - invalid instruction at line 175: bltu x8 x31 x36
+Error - invalid instruction at line 176: bgeu x18 x0 x54
+One or more errors encountered during assembly operation.

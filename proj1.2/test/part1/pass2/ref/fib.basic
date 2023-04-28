@@ -1,0 +1,29 @@
+add x5 x0 x0
+addi x6 x0 -1
+auipc x28 65536
+addi x28 x28 -8
+auipc x28 65536
+lw x28 -16(x28)
+lui x28 4099
+auipc x28 1
+addi x28 x0 -1
+lui x28 1048413
+addi x28 x28 982
+beq x28 x0 28
+auipc x28 65536
+lw x28 -48(x28)
+auipc x1 0
+addi x1 x1 16
+jalr x1 x1 6
+jalr x1 x1 0
+beq x28 x0 8
+jal x0 -4
+addi x10 x0 1
+ecall
+ecall
+jal x1 -12
+slti x6 x6 2023
+srai x6 x6 13
+sb x6 4(x6)
+sh x6 -4(x6)
+sw x6 -2048(x6)

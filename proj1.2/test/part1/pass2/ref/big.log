@@ -1,0 +1,17 @@
+Error - invalid instruction at line 2: la x2 msg
+Error - invalid instruction at line 17: lb t2 a7
+Error - invalid instruction at line 21: lh t4 a6
+Error - invalid instruction at line 25: lw s1 s0
+Error - invalid instruction at line 27: lw s2 size zero
+Error - invalid instruction at line 31: divu a3 s1 s2
+Error - invalid instruction at line 32: remu a4 s0 s2
+Error - invalid instruction at line 33: csrrw a3 mstatus a3
+Error - invalid instruction at line 40: bgeu t6 t7 L9
+Error - invalid instruction at line 41: slt t8 a6 a7
+Error - invalid instruction at line 42: sltu t9 t6 t7
+Error - invalid instruction at line 45: srai s5 s0 -1
+Error - invalid instruction at line 48: sb t2 array+8 s0
+Error - invalid instruction at line 49: sh t4 array+12 s0
+Error - invalid instruction at line 50: sw ra array+16 s0
+Error - invalid instruction at line 53: fence.i
+One or more errors encountered during assembly operation.

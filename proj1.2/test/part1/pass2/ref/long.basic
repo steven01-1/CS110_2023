@@ -1,0 +1,25 @@
+add x21 x29 x10
+mul x11 x24 x6
+sub x27 x18 x7
+sll x3 x6 x25
+mulh x28 x28 x1
+slt x16 x1 x15
+sltu x24 x22 x29
+xor x23 x21 x18
+div x17 x13 x21
+srl x0 x30 x24
+sra x19 x23 x1
+or x28 x0 x19
+and x0 x3 x31
+rem x10 x11 x19
+addi x2 x17 -232
+slli x5 x1 26
+slti x8 x1 -1782
+xori x24 x21 495
+srli x5 x3 25
+srai x28 x15 19
+ori x8 x11 1680
+andi x2 x2 867
+lui x22 21782
+auipc x18 1454
+jalr x13 x5 -1179

@@ -1,0 +1,57 @@
+li x1 10
+la x2 msg
+-
+mv x3 x1
+addi x4 zero 5
+add x5 x1 x4
+addi sp sp -16
+sw ra 12 sp
+jal ra func1
+lw ra 12 sp
+addi sp sp 16
+jalr zero ra 0
+lui t0 0x12345
+auipc t1 0x67890
+la a7 bytes
+-
+lb t2 a7
+lbu t3 2 a7
+la a6 halfs
+-
+lh t4 a6
+lhu t5 2 a6
+la s0 array
+-
+lw s1 s0
+-
+lw s2 size zero
+mul a0 s0 s2
+div a1 s1 s2
+rem a2 s0 s2
+divu a3 s1 s2
+remu a4 s0 s2
+csrrw a3 mstatus a3
+ecall
+bne a3 a7 L4
+ret
+j L6
+jr ra
+blt a6 a7 L8
+bgeu t6 t7 L9
+slt t8 a6 a7
+sltu t9 t6 t7
+slli s3 s1 2
+srli s4 s2 1
+srai s5 s0 -1
+xor a4 a0 a1
+xori a5 a2 -10
+sb t2 array+8 s0
+sh t4 array+12 s0
+sw ra array+16 s0
+beqz x31 L11
+bnez x31 L12
+fence.i
+nop
+li gp 100
+li tp 200
+j end

@@ -1,0 +1,267 @@
+auipc x10 65536
+addi x10 x10 0
+jal x1 24
+jal x1 740
+jal x1 784
+jal x1 780
+addi x10 x0 10
+ecall
+addi x2 x2 -48
+sw x1 0(x2)
+sw x10 4(x2)
+jal x1 692
+jal x1 752
+lw x10 4(x2)
+jal x1 652
+sw x10 8(x2)
+jal x1 688
+jal x1 732
+lw x10 8(x2)
+slli x10 x10 1
+addi x10 x10 3
+jal x1 812
+sw x10 12(x2)
+jal x1 692
+jal x1 704
+lw x10 12(x2)
+lw x11 28(x2)
+addi x12 x0 36
+jal x1 584
+lw x11 28(x2)
+addi x11 x11 1
+sw x11 28(x2)
+lw x10 12(x2)
+addi x12 x0 35
+jal x1 560
+lw x11 28(x2)
+addi x11 x11 1
+sw x11 28(x2)
+lw x10 4(x2)
+lw x11 24(x2)
+jal x1 524
+beq x10 x0 64
+addi x12 x10 0
+lw x10 12(x2)
+lw x11 28(x2)
+jal x1 516
+lw x10 24(x2)
+addi x10 x10 1
+sw x10 24(x2)
+lw x11 28(x2)
+addi x11 x11 1
+lw x10 12(x2)
+addi x12 x0 35
+jal x1 484
+addi x11 x11 1
+sw x11 28(x2)
+jal x0 -72
+lw x10 12(x2)
+lw x11 28(x2)
+addi x12 x0 0
+jal x1 456
+lw x10 12(x2)
+jal x1 488
+jal x1 548
+lw x10 12(x2)
+jal x1 448
+sw x10 16(x2)
+jal x1 484
+jal x1 528
+lw x10 16(x2)
+addi x11 x0 4
+jal x1 632
+sw x10 20(x2)
+jal x1 492
+jal x1 504
+addi x10 x0 1
+sw x10 24(x2)
+sw x0 32(x2)
+sw x0 36(x2)
+sw x0 40(x2)
+lw x10 16(x2)
+addi x10 x10 -1
+lw x11 24(x2)
+bge x11 x10 284
+lw x10 24(x2)
+addi x10 x10 1
+sw x10 24(x2)
+jal x1 404
+jal x1 480
+lw x10 36(x2)
+lw x11 24(x2)
+bge x11 x10 64
+lw x11 24(x2)
+lw x10 32(x2)
+slli x10 x10 1
+sub x11 x10 x11
+sw x11 28(x2)
+lw x10 20(x2)
+jal x1 260
+lw x11 24(x2)
+lw x12 36(x2)
+sub x11 x12 x9
+jal x1 588
+addi x12 x10 0
+lw x10 20(x2)
+lw x11 24(x2)
+jal x1 244
+lw x10 20(x2)
+lw x11 24(x2)
+jal x1 216
+addi x13 x10 1
+lw x10 24(x2)
+lw x10 12(x2)
+lw x11 24(x2)
+sub x11 x11 x13
+jal x1 224
+addi x14 x10 0
+lw x10 12(x2)
+lw x11 24(x2)
+add x11 x11 x13
+jal x1 204
+bne x14 x10 36
+lw x10 20(x2)
+lw x11 24(x2)
+jal x1 156
+addi x12 x10 1
+lw x11 24(x2)
+lw x10 20(x2)
+jal x1 156
+jal x0 -88
+lw x10 20(x2)
+lw x11 24(x2)
+jal x1 124
+lw x11 24(x2)
+add x10 x11 x10
+lw x11 36(x2)
+bge x11 x10 16
+sw x10 36(x2)
+lw x10 24(x2)
+sw x10 32(x2)
+lw x10 20(x2)
+lw x11 24(x2)
+jal x1 84
+lw x11 40(x2)
+jal x1 408
+sw x10 40(x2)
+lw x11 16(x2)
+lw x10 20(x2)
+jal x1 256
+jal x1 236
+lw x10 40(x2)
+jal x1 148
+jal x1 192
+jal x0 -292
+jal x1 184
+lw x10 12(x2)
+jal x1 340
+lw x10 20(x2)
+jal x1 332
+lw x1 0(x2)
+lw x10 40(x2)
+addi x2 x2 48
+jalr x0 x1 0
+slli x11 x11 2
+add x10 x10 x11
+lw x10 0(x10)
+jalr x0 x1 0
+slli x11 x11 2
+add x10 x10 x11
+sw x12 0(x10)
+jalr x0 x1 0
+add x10 x10 x11
+lb x10 0(x10)
+jalr x0 x1 0
+add x10 x10 x11
+sb x12 0(x10)
+jalr x0 x1 0
+addi x11 x10 0
+addi x10 x0 0
+lb x12 0(x11)
+addi x10 x10 1
+addi x11 x11 1
+jal x0 -16
+addi x11 x10 0
+addi x10 x0 4
+ecall
+jalr x0 x1 0
+addi x11 x10 0
+addi x10 x0 1
+ecall
+jalr x0 x1 0
+addi x11 x10 0
+addi x10 x0 11
+ecall
+jalr x0 x1 0
+addi x11 x10 0
+addi x10 x0 34
+ecall
+jalr x0 x1 0
+addi x10 x0 11
+addi x11 x0 10
+ecall
+jalr x0 x1 0
+addi x11 x0 32
+addi x10 x0 11
+ecall
+jalr x0 x1 0
+addi x11 x0 9
+addi x10 x0 11
+ecall
+jalr x0 x1 0
+addi x12 x10 0
+addi x13 x11 0
+lw x11 0(x12)
+addi x10 x0 1
+ecall
+addi x11 x0 32
+addi x10 x0 11
+ecall
+addi x12 x12 4
+addi x13 x13 -1
+jal x0 -36
+addi x11 x10 0
+addi x10 x0 972
+addi x16 x0 1
+ecall
+jalr x0 x1 0
+addi x12 x11 0
+addi x11 x10 0
+addi x10 x0 972
+addi x16 x0 2
+ecall
+jalr x0 x1 0
+addi x12 x11 0
+addi x11 x10 0
+addi x10 x0 972
+addi x16 x0 3
+ecall
+jalr x0 x1 0
+addi x11 x10 0
+addi x10 x0 972
+addi x16 x0 4
+ecall
+jalr x0 x1 0
+addi x10 x11 0
+jalr x0 x1 0
+addi x10 x11 0
+addi x2 x2 -16
+sw x1 0(x2)
+sw x10 4(x2)
+sw x11 8(x2)
+sw x12 12(x2)
+lw x10 4(x2)
+lw x11 8(x2)
+bge x10 x11 36
+lw x12 12(x2)
+lw x11 0(x10)
+jalr x1 x12 0
+lw x11 4(x2)
+sw x10 0(x11)
+addi x11 x11 4
+sw x11 4(x2)
+jal x0 -40
+lw x1 0(x2)
+addi x2 x2 16
+jalr x0 x1 0
+jalr x0 x1 0

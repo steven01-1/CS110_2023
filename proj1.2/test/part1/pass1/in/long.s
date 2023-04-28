@@ -1,0 +1,175 @@
+add s5 x29 a0
+mul a1 x24 x6
+sub x27 s2 x7
+sll gp t1 x25
+mulh t3 t3 ra
+slt a6 ra a5
+sltu s8 s6 x29
+xor x23 x21 x18
+div x17 a3 x21
+srl zero t5 x24
+sra s3 x23 x1
+or x28 x0 x19
+and x0 gp t6
+rem a0 a1 s3
+mulw x1 gp s11
+divw x12 a2 t0
+remw a4 s8 x4
+addi x2 a7 -232
+slli t0 x1 26
+slti fp ra -1782
+sltiu x14 x17 2778
+xori x24 s5 495
+srli x5 x3 25
+srai t3 x15 19
+ori x8 a1 1680
+andi sp x2 867
+addiw x28 a1 -1810
+slliw x21 x7 22
+srliw x4 x30 22
+sraiw s0 t4 4
+lb x24 7717(s8)
+lh x5 -11222(s6)
+lw t6 13560(x1)
+lbu tp -19640(x5)
+lhu s8 -16630(x1)
+sb s10 -17748(s9)
+sh s3 21645(x12)
+sw a5 15369(s3)
+lui s6 21782
+auipc x18 1454
+jal t6 -16234
+jalr a3 x5 -1179
+beq x30 x11 30602
+bne sp s4 -10616
+blt x0 x10 16954
+bge x31 x20 5675
+bltu s11 s6 15391
+bgeu t6 t3 -18328
+add s11 a5
+mul t1 s9
+sub x14 x11
+sll gp x14
+mulh x28 a4
+slt x0 t5
+sltu t4 ra
+xor a2 s4
+div s3 a4
+srl x12 a0
+sra x30 t6
+or s2 a2
+and x2 t4
+rem a4 x13
+mulw s5 x9
+divw t5 x6
+remw s3 s2
+addi x6 x7
+slli x18 x10
+slti x12 tp
+sltiu a0 tp
+xori ra x22
+srli x21 t5
+srai a0 x27
+ori s9 a1
+andi x29 x31
+addiw x7 x15
+slliw t4 t5
+srliw x14 s7
+sraiw x25 t3
+lb s11 10444
+lh a4 -3639
+lw x13 -12670
+lbu a7 14203
+lhu a2 -7586
+sb x11 26772
+sh a0 19529
+sw x14 8895
+lui x26
+auipc a0
+jal x15
+jalr s4 a4
+beq x10 zero
+bne a7 x25
+blt x29 sp
+bge s10 x1
+bltu x18 t0
+bgeu x23 x27
+add x25 x27 x53
+mul x25 x2 x36
+sub x14 x1 x43
+sll x17 x10 x45
+mulh x18 x19 x52
+slt x19 x23 x47
+sltu x19 x12 x56
+xor x19 x30 x39
+div x5 x31 x52
+srl x5 x6 x49
+sra x13 x21 x34
+or x20 x19 x61
+and x19 x15 x55
+rem x8 x14 x48
+mulw x18 x25 x44
+divw x20 x13 x61
+remw x29 x17 x38
+addi x25 x9 x60
+slli x8 x6 x47
+slti x10 x23 x63
+sltiu x27 x4 x50
+xori x10 x13 x62
+srli x7 x5 x45
+srai x9 x24 x48
+ori x24 x30 x47
+andi x4 x5 x36
+addiw x15 x5 x47
+slliw x17 x22 x63
+srliw x17 x28 x46
+sraiw x31 x17 x40
+lb x8 x9 x38
+lh x25 x15 x38
+lw x14 x9 x59
+lbu x5 x27 x32
+lhu x25 x20 x33
+sb x26 x22 x58
+sh x0 x18 x55
+sw x3 x28 x42
+lui x19 x42
+auipc x22 x44
+jal x31 x43
+jalr x27 x8 x54
+beq x17 x16 x56
+bne x0 x11 x38
+blt x12 x31 x36
+bge x22 x22 x60
+bltu x3 x21 x58
+bgeu x15 x4 x45
+addi x12 x7 x45
+slli x2 x6 x52
+slti x16 x9 x43
+sltiu x1 x21 x38
+xori x30 x30 x34
+srli x7 x14 x49
+srai x1 x5 x62
+ori x17 x17 x39
+andi x2 x0 x43
+addiw x5 x0 x41
+slliw x30 x20 x41
+srliw x31 x18 x44
+sraiw x0 x5 x47
+lb x10 x17 x47
+lh x21 x25 x49
+lw x21 x4 x55
+lbu x25 x27 x37
+lhu x15 x9 x48
+sb x12 x1 x56
+sh x31 x20 x39
+sw x17 x7 x58
+lui x13 x48
+auipc x4 x56
+jal x8 x37
+jalr x4 x26 x59
+beq x28 x30 x35
+bne x12 x8 x38
+blt x30 x3 x49
+bge x10 x4 x41
+bltu x8 x31 x36
+bgeu x18 x0 x54

@@ -1,0 +1,1 @@
+./riscv assembler ./test/pass1/in/simple.s -d ./test/pass1/out/simple.data -s ./test/pass1/out/simple.symbol -o ./test/pass1/in/simple.original -b ./test/pass2/out/simple.basic -t ./test/pass2/simple.text

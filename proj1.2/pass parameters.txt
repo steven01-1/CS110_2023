@@ -1,0 +1,7 @@
+emulator ./test/part2/in/hello_world.text ./test/part2/in/hello_world.data -l ./test/part2/out/hello_world.log < ./test/part2/in/hello_world.commands 
+
+emulator ./test/part2/in/f2.text ./test/part2/in/f2.data -l ./test/part2/out/f2.log < ./test/part2/in/f2.commands 
+
+emulator ./test/part2/in/f1.text ./test/part2/in/f1.data -l ./test/part2/out/f1.log < ./test/part2/in/f1.commands 
+
+emulator ./test/part2/in/ex1.text ./test/part2/in/ex1.data -l ./test/part2/out/ex1.log < ./test/part2/in/ex1.commands 

@@ -1,0 +1,8 @@
+*.o
+riscv
+out/
+.idea/
+test/out/
+*.sh
+.vscode/
+
