@@ -1,0 +1,1 @@
+chmod 707 Makefile; make test
