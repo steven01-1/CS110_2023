@@ -1,0 +1,25 @@
+10101100000111111001100110010101011001010100000  ref
+
+10101010111110110100110100100101100001010100000
+
+
+struct cache_config {
+  uint64_t address_bits;
+  uint64_t line_size;
+  uint64_t lines;
+  uint64_t ways;
+};
+struct cache_line {
+  bool valid, dirty;
+  uint64_t tag;
+  uint64_t last_access;
+  uint8_t *data;
+};
+struct cashier {
+  struct cache_config config;
+  uint64_t size;
+  uint64_t tag_bits, tag_mask;
+  uint64_t index_bits, index_mask;
+  uint64_t offset_bits, offset_mask;
+  struct cache_line *lines;
+};
