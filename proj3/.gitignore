@@ -1,0 +1,8 @@
+results/
+*.gif
+*.png
+lbm
+.idea/
+perf.data
+data.perf
+perf.data.old

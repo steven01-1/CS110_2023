@@ -1,0 +1,26 @@
+==done==
+Reynolds number:                        1.232000579834E+02
+Average velocity:                       4.812502302229E-03
+Elapsed Init time:                      0.014441 (s)
+Elapsed Compute time:                   40.196356 (s)
+Elapsed Total time:                     40.906060 (s)
+
+standard result
+
+
+5000times :
+
+Reynolds number:                        6.296502685547E+02
+Average velocity:                       2.459571324289E-02
+Elapsed Init time:                      0.024330 (s)
+Elapsed Compute time:                   188.593693 (s)
+Elapsed Total time:                     189.710291 (s)
+
+======================
+no change
+Reynolds number:                        6.296203613281E+02
+Average velocity:                       2.459454536438E-02
+Elapsed Init time:                      0.013247 (s)
+Elapsed Compute time:                   202.407270 (s)
+Elapsed Total time:                     203.535425 (s)
+
