@@ -1,0 +1,11 @@
+#########___
+#-------#___
+#-##-##-###_
+#--$.$.$.-##
+##-.$.$.$--#
+_###-##-##-#
+___#---@---#
+___#########
+
+ans:
+uuLuRuulllddDuuurrrdddlLLuRRdrUdddrrruulLLLulluulllddrRRRluurrrDDDrrrddlllUdlllUUUllluurrrD
